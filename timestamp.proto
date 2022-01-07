@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package commons;
+
+
+option go_package = "./timestamp";
+
+
+message Timestamp {
+    int64 seconds = 1;
+    int32 nanos = 2;
+
+}
